@@ -13,6 +13,12 @@
 		50E15BD024CAAD3C002DA0CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E15BCF24CAAD3C002DA0CE /* Preview Assets.xcassets */; };
 		50E15BDB24CAAD3D002DA0CE /* SwiftUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E15BDA24CAAD3D002DA0CE /* SwiftUIDemoTests.swift */; };
 		50E15BE624CAAD3D002DA0CE /* SwiftUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E15BE524CAAD3D002DA0CE /* SwiftUIDemoUITests.swift */; };
+		50E15BF424CAAD7F002DA0CE /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E15BF324CAAD7F002DA0CE /* Clock.swift */; };
+		50F04ED024CAB02200ACE976 /* TypeErasure&Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F04ECF24CAB02100ACE976 /* TypeErasure&Debugging.swift */; };
+		50F04ED424CAB06900ACE976 /* Inspecting the View Tree Part 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F04ED324CAB06900ACE976 /* Inspecting the View Tree Part 1.swift */; };
+		50F04EDB24CBC37B00ACE976 /* RotatingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F04EDA24CBC37B00ACE976 /* RotatingCard.swift */; };
+		50F04EDD24CBD95800ACE976 /* FollowPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F04EDC24CBD95800ACE976 /* FollowPath.swift */; };
+		50F04EDF24CBE14300ACE976 /* IgnoreEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F04EDE24CBE14300ACE976 /* IgnoreEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,14 @@
 		50E15BE124CAAD3D002DA0CE /* SwiftUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E15BE524CAAD3D002DA0CE /* SwiftUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoUITests.swift; sourceTree = "<group>"; };
 		50E15BE724CAAD3D002DA0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E15BF324CAAD7F002DA0CE /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		50F04ECF24CAB02100ACE976 /* TypeErasure&Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TypeErasure&Debugging.swift"; sourceTree = "<group>"; };
+		50F04ED324CAB06900ACE976 /* Inspecting the View Tree Part 1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Inspecting the View Tree Part 1.swift"; sourceTree = "<group>"; };
+		50F04ED624CBC08E00ACE976 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		50F04ED924CBC34E00ACE976 /* advanced-swiftui-animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "advanced-swiftui-animations.swift"; sourceTree = "<group>"; };
+		50F04EDA24CBC37B00ACE976 /* RotatingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingCard.swift; sourceTree = "<group>"; };
+		50F04EDC24CBD95800ACE976 /* FollowPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowPath.swift; sourceTree = "<group>"; };
+		50F04EDE24CBE14300ACE976 /* IgnoreEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +109,11 @@
 		50E15BC724CAAD3A002DA0CE /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				50F04ED524CBBFDF00ACE976 /* SwiftUILab */,
 				50E15BC824CAAD3A002DA0CE /* SwiftUIDemoApp.swift */,
+				50F04ED324CAB06900ACE976 /* Inspecting the View Tree Part 1.swift */,
+				50E15BF324CAAD7F002DA0CE /* Clock.swift */,
+				50F04ECF24CAB02100ACE976 /* TypeErasure&Debugging.swift */,
 				50E15BCA24CAAD3A002DA0CE /* ContentView.swift */,
 				50E15BCC24CAAD3C002DA0CE /* Assets.xcassets */,
 				50E15BD124CAAD3C002DA0CE /* Info.plist */,
@@ -128,6 +146,18 @@
 				50E15BE724CAAD3D002DA0CE /* Info.plist */,
 			);
 			path = SwiftUIDemoUITests;
+			sourceTree = "<group>";
+		};
+		50F04ED524CBBFDF00ACE976 /* SwiftUILab */ = {
+			isa = PBXGroup;
+			children = (
+				50F04ED924CBC34E00ACE976 /* advanced-swiftui-animations.swift */,
+				50F04ED624CBC08E00ACE976 /* README.md */,
+				50F04EDA24CBC37B00ACE976 /* RotatingCard.swift */,
+				50F04EDC24CBD95800ACE976 /* FollowPath.swift */,
+				50F04EDE24CBE14300ACE976 /* IgnoreEffect.swift */,
+			);
+			path = SwiftUILab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E15BF424CAAD7F002DA0CE /* Clock.swift in Sources */,
+				50F04ED024CAB02200ACE976 /* TypeErasure&Debugging.swift in Sources */,
 				50E15BCB24CAAD3A002DA0CE /* ContentView.swift in Sources */,
+				50F04ED424CAB06900ACE976 /* Inspecting the View Tree Part 1.swift in Sources */,
+				50F04EDD24CBD95800ACE976 /* FollowPath.swift in Sources */,
 				50E15BC924CAAD3A002DA0CE /* SwiftUIDemoApp.swift in Sources */,
+				50F04EDF24CBE14300ACE976 /* IgnoreEffect.swift in Sources */,
+				50F04EDB24CBC37B00ACE976 /* RotatingCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
